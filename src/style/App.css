@@ -1,0 +1,88 @@
+/** OVERALL STYLING **/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 100%;
+  color: #545454;
+}
+
+.layoutContainer {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 1rem;
+}
+
+select {
+  border: none;
+  font-size: 1.2rem;
+}
+
+select:focus {
+  outline: none;
+}
+
+button {
+  padding: 0.3rem 0.9rem;
+  color: #233947;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  font-weight: 600;
+  font-size: 0.7rem;
+  height: 35px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+input {
+  width: 50%;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.9rem;
+  color: #464646;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 28px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 28px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 28px -13px rgba(0, 0, 0, 0.75);
+}
+
+input:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 10px 28px -13px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 10px 28px -13px rgba(0, 0, 0, 1);
+  box-shadow: 0px 10px 28px -13px rgba(0, 0, 0, 1);
+}
+
+::placeholder {
+  color: rgb(155, 155, 155);
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  select {
+    margin-top: 0.5rem;
+  }
+
+  input {
+    margin-top: 1rem;
+    width: 95%;
+  }
+}

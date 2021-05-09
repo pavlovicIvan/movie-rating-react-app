@@ -1,0 +1,21 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0 2rem 0;
+}
+
+.logo {
+  width: 275px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 100%;
+  }
+
+  .headerContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

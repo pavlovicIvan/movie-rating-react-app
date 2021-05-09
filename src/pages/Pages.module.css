@@ -1,0 +1,27 @@
+.borderBottom {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e9e9e9;
+}
+
+.loadMoreContainer {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.noResults {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 0;
+  color: #233947;
+}
+
+.errorMessage {
+  text-align: center;
+  background-color: #d60101;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
